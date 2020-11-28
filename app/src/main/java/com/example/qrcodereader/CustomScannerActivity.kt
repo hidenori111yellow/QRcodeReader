@@ -2,7 +2,10 @@ package com.example.qrcodereader
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.zxing.integration.android.IntentIntegrator
 import com.journeyapps.barcodescanner.CaptureManager
 import kotlinx.android.synthetic.main.activity_custom_scanner.*
 import kotlinx.android.synthetic.main.custom_qr_code_scanner.*
